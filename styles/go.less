@@ -1,0 +1,83 @@
+.go {
+    &.variable {
+      color: @syntax-text-color;
+    }
+
+    &.keyword {
+      color: @red;
+
+      &.control {
+        font-style: italic;
+      }
+
+      &.operator.bracket, &.operator.punctuation {
+        color: lighten(@syntax-text-color, 15%);
+      }
+    }
+
+    &.storage {
+      color: @red;
+
+      &.type {
+          font-style: italic;
+          color: @blue;
+      }
+    }
+
+    &.constant {
+      color: @purple;
+
+      &.escape {
+        color: @orange;
+      }
+
+      &.numeric {
+        color: @purple;
+      }
+
+      &.other.color {
+        color: @purple;
+      }
+
+      &.other.symbol {
+        color: @purple;
+      }
+    }
+
+    &.string {
+      color: @yellow;
+
+      &.regexp {
+        color: @green;
+      }
+
+      &.other.link {
+        color: @yellow;
+      }
+    }
+
+    &.punctuation {
+      &.definition {
+        &.string {
+            color: @yellow;
+        }
+
+        &.variable,
+        &.parameters,
+        &.array {
+          color: @syntax-text-color;
+        }
+
+      }
+    }
+
+    &.support {
+      &.function  {
+        color: @blue;
+
+        &.decl {
+            color: @green;
+        }
+      }
+    }
+}
