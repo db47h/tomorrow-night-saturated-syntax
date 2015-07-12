@@ -19,9 +19,9 @@ LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
 OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-Based on the [Tomorrow Night Eighties][1] syntax theme for Atom by Roccky Madden released under the MIT license.
+Based on the [Tomorrow Night Eighties][1] syntax theme for Atom by Roccky Madden, released under the MIT license.
 
-Original color palettes from Chris Kempson's [Tomorrow][2] theme.
+Original color palettes from Chris Kempson's [Base 16][2] theme.
 
   [1]: https://atom.io/themes/tomorrow-night-eighties-syntax
-  [2]: https://github.com/chriskempson/tomorrow-theme
+  [2]: https://github.com/chriskempson/base16
