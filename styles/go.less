@@ -1,41 +1,41 @@
-.go {
-  &.variable {
+.syntax--go {
+  &.syntax--variable {
     color: @syntax-text-color;
   }
 
-  &.string {
+  &.syntax--string {
     color: @yellow;
   }
 
-  &.keyword {
+  &.syntax--keyword {
     color: @red;
 
-    &.control {
+    &.syntax--control {
       color: @purple;
     }
 
-    &.operator {
+    &.syntax--operator {
       color: @syntax-text-color;
     }
 
-    &.other.special-method {
+    &.syntax--other.syntax--special-method {
       color: @blue;
     }
 
-    &.other.unit {
+    &.syntax--other.syntax--unit {
       color: @orange;
     }
   }
 
-  &.support {
-    &.function  {
+  &.syntax--support {
+    &.syntax--function  {
       color: @blue;
 
-      &.decl {
+      &.syntax--decl {
           color: @green;
       }
 
-      &.built-in {
+      &.syntax--built-in {
         font-style: italic;
       }
     }

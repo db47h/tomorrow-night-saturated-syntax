@@ -1,7 +1,7 @@
 {
   "name": "tomorrow-nightish-syntax",
   "theme": "syntax",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Atom syntax theme based on Tomorrow Night with darker background and more saturated colors.",
   "keywords": [
     "tomorrow",
@@ -14,6 +14,11 @@
   "repository": "https://github.com/db47h/tomorrow-nightish-syntax",
   "license": "MIT",
   "engines": {
-    "atom": ">=1.0.0 <2.0.0"
+    "atom": ">=1.13"
+  },
+  "apmInstallSource": {
+    "type": "git",
+    "source": "https://github.com/db47h/tomorrow-nightish-syntax",
+    "sha": "d6023e04ef2fbaabec5a0c4d8e406ed30cdcd33e"
   }
 }
