@@ -11,14 +11,14 @@
     "syntax",
     "theme"
   ],
-  "repository": "https://github.com/db47h/tomorrow-nightish-syntax",
+  "repository": "https://github.com/db47h/tomorrow-night-saturated-syntax",
   "license": "MIT",
   "engines": {
     "atom": ">=1.13"
   },
   "apmInstallSource": {
     "type": "git",
-    "source": "https://github.com/db47h/tomorrow-nightish-syntax",
+    "source": "https://github.com/db47h/tomorrow-night-saturated-syntax",
     "sha": "d6023e04ef2fbaabec5a0c4d8e406ed30cdcd33e"
   }
 }
