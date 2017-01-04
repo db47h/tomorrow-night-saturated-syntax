@@ -1,7 +1,7 @@
 {
   "name": "tomorrow-night-saturated-syntax",
   "theme": "syntax",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Atom syntax theme based on Tomorrow Night with darker background and more saturated colors.",
   "keywords": [
     "tomorrow",
