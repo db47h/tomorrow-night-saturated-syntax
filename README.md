@@ -12,7 +12,7 @@ hues than the Monokai theme with a few tweaks.
 
 Example fo Go source code:
 
-![Go screenshot][screenshot-go]
+[![Go screenshot][screenshot-go]][screenshot-go]
 
 This theme is based on Atom's Base16 Tomorrow Dark core theme.
 
