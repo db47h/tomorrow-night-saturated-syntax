@@ -1,19 +1,20 @@
 {
-  "name": "tomorrow-nightish-syntax",
+  "name": "tomorrow-night-saturated-syntax",
   "theme": "syntax",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Atom syntax theme based on Tomorrow Night with darker background and more saturated colors.",
   "keywords": [
     "tomorrow",
     "night",
+    "saturated",
     "dark",
     "customizable",
     "syntax",
     "theme"
   ],
-  "repository": "https://github.com/db47h/tomorrow-nightish-syntax",
+  "repository": "https://github.com/db47h/tomorrow-night-saturated-syntax",
   "license": "MIT",
   "engines": {
-    "atom": ">=1.0.0 <2.0.0"
+    "atom": ">=1.13"
   }
 }

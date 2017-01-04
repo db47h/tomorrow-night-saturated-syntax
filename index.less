@@ -1,9 +1,11 @@
-@import "./styles/editor.less";
-@import "./styles/base.less";
-@import "./styles/coffee.less";
-@import "./styles/gfm.less";
-@import "./styles/go.less";
-@import "./styles/haml.less";
-@import "./styles/js.less";
-@import "./styles/ruby.less";
-@import "./styles/haskell.less";
+
+// Base16 Tomorrow Dark
+
+@import (reference) "styles/syntax-variables";
+
+@import 'editor';
+@import 'language';
+
+@import 'languages/cs';
+@import 'languages/json';
+@import 'languages/go';

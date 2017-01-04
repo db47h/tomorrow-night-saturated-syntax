@@ -1,0 +1,86 @@
+.syntax--go {
+  &.syntax--variable {
+    color: @syntax-text-color;
+  }
+
+  &.syntax--string {
+    color: @yellow;
+
+    .syntax--constant.syntax--character.syntax--escape {
+      color: @orange;
+    }
+  }
+
+  &.syntax--storage {
+      &.syntax--type {
+          color: @orange;
+          font-style: italic;
+      }
+  }
+
+  &.syntax--keyword {
+    color: @red;
+
+    &.syntax--control {
+      color: @red;
+    }
+
+    &&.syntax--map, &.syntax--struct, &.syntax--interface {
+      color: @orange;
+    }
+
+    &.syntax--operator {
+      color: @syntax-text-color;
+      
+      &.syntax--assignment {
+          color: @red;
+      }
+    }
+
+    &.syntax--other.syntax--special-method {
+      color: @blue;
+    }
+
+    &.syntax--other.syntax--unit {
+      color: @purple;
+    }
+  }
+
+  &.syntax--constant {
+	  color: @purple;
+  }
+
+  &.syntax--entity {
+      &.syntax--name {
+           &.syntax--function {
+              color: @green;
+           }
+           &.syntax--type {
+              color: @yellow;
+           }
+      }
+  }
+
+  &.syntax--support {
+    &.syntax--function  {
+      color: @blue;
+
+      &.syntax--builtin {
+        font-style: italic;
+      }
+    }
+  }
+}
+
+// fix for go syntax parser that doesn't set the .go class on entity.name.function
+
+.syntax--source.syntax--go .syntax--entity {
+	&.syntax--name {
+		 &.syntax--function {
+			color: @green;
+		 }
+		 &.syntax--type {
+			color: @yellow;
+		 }
+	}
+}

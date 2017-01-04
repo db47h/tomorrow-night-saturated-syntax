@@ -1,19 +1,28 @@
-// These colors are specific to the theme. Do not use in a package!
+// Based on Base16 Tomorrow Dark, a color scheme by Chris Kempson (http://chriskempson.com)
+
+// Colors are more saturated while grays are darkened.
 
 @saturate: 15%;
 @lighten: 0%;
 @darken: 6%;
 
-@background: darken(#1d1f21, @darken);
-@current-line: darken(#282a2e, @darken);
-@selection: darken(#373b41, @darken);
-@foreground: lighten(#c5c8c6, @lighten);
-@comment: lighten(#969896, @lighten);
-@red: saturate(#cc6666, @saturate);
-@orange: saturate(#de935f, @saturate);
-@yellow: saturate(#f0c674, 7%);
-@green: saturate(#b5bd68, @saturate);
-@aqua: saturate(#8abeb7, @saturate);
-@blue: saturate(#81a2be, @saturate);
-@purple: saturate(#b294bb, @saturate);
-@brown: saturate(#a3685a, @saturate);
+// Grayscale
+@black:           darken(#1d1f21, @darken); // 00
+@very-dark-gray:  darken(#282a2e, @darken); // 01
+@dark-gray:       darken(#373b41, @darken); // 02
+@gray:            darken(#969896, @darken); // 03
+// @light-gray:      #b4b7b4; // 04
+@very-light-gray: #c5c8c6; // 05
+@light-gray:      mix(@dark-gray, @very-light-gray); // 04
+@almost-white:    #e0e0e0; // 06
+@white:           #ffffff; // 07
+
+// Colors
+@red:             saturate(#cc6666, @saturate); // 08
+@orange:          saturate(#de935f, @saturate); // 09
+@yellow:          saturate(#f0c674, 7%); // 0A
+@green:           saturate(#b5bd68, @saturate); // 0B
+@cyan:            saturate(#8abeb7, @saturate); // 0C
+@blue:            saturate(#81a2be, @saturate); // 0D
+@purple:          saturate(#b294bb, @saturate); // 0E
+@brown:           saturate(#a3685a, @saturate); // 0F
